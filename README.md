@@ -15,3 +15,12 @@
 #### Step 3: On Command-Line
 &ensp; ``` gff-to-fasta-extractor.py --source <.gff> file --type <feature_type> --attribute <Tag> --value <Tag-Value> ```
 
+##### where: 
+&ensp; --source: An input <.gff> file. (General Feature Format). \
+&ensp;&ensp;&ensp;&ensp; A sample Saccharomyces_cerevisiae_S288C.annotation.gff is provided in th repo. \
+&ensp; --type: feature type. Any of the types present in the 3rd column of the file. \
+&ensp;&ensp;&ensp;&ensp; (For example: gene, CDS, repeat_region, exon, etc.)\
+&ensp; --attribute: One of the multiple tags present in the 9th column.\
+&ensp;&ensp;&ensp;&ensp; (For example: ID, Name, Parent, Alias)\
+&ensp; --value: The corresponding tag's value.\
+&ensp;&ensp;&ensp;&ensp; (For example: YAL044W, YAR003W)
