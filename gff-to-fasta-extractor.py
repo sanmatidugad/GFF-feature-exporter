@@ -1,4 +1,4 @@
-## With the parser
+#! /usr/bin/ python3
 import argparse
 
 parser = argparse.ArgumentParser(description="This tool finds the required fasta sequnce from gff files")    #Create an ArgumentParser object
